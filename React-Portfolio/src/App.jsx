@@ -1,21 +1,21 @@
 import Header from './components/Header'
 import Nav from './components/Nav'
 import Footer from './components/footer'
-import Page from './components/Page'
-import { useLocation } from "react-router-dom"
+import { Outlet } from 'react-router-dom'
 
 function App() {
-  const currentPage = useLocation().pathname;
 
   return (
     <div>
       <Header>
-        <Nav currentPage={currentPage} />
-      </Header>
+        <Nav />
+      </Header> 
       <main>
-        <Page currentPage={currentPage} />
+        <Outlet />
       </main>
       <Footer />
     </div>
   );
 }
+
+export default App;
