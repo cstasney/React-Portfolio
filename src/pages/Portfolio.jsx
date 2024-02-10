@@ -8,13 +8,15 @@ function Portfolio() {
       name: 'diveBar',
       description: 'MYSQL and Node',
       title: 'Dive Bar',
-      gitHub: 'https://github.com/JackStras/Dive-Bar'
+      gitHub: 'https://github.com/JackStras/Dive-Bar',
+      live: 'https://github.com/JackStras/Dive-Bar'
     },
     {
       name: 'bookSearch',
       description: 'MERN Stack',
       gitHub: "https://github.com/cstasney/Book-Search-Engine",
-      title: 'Book Search Engine'
+      title: 'Book Search Engine',
+      live: 'https://stasney-book-search-dc63d08f8f2b.herokuapp.com/'
     },
     {
       name: 'socialNetwork',

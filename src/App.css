@@ -24,7 +24,7 @@
 #selfie {
   max-width: 500px;
   border-radius: 16px;
-  margin-top: 100px;
+  margin-top: 150px;
   margin-bottom: 15px;
 }
 
@@ -33,7 +33,7 @@
   margin-bottom: 150px;
   color: rgb(11, 94, 133);
   font-weight: 750;
-  margin-top: 15px;
+  margin-top: 75px;
 }
 
 .projectImage {
@@ -55,17 +55,15 @@
 .accordion-button {
   background-color: rgb(146, 103, 103);
   color: rgb(179, 211, 221);
-  text-align:  center;
+  text-align: center;
 }
 
 .contactForm {
   background-color: rgba(50, 123, 156, 0.795);
   color: rgb(179, 211, 221);
   border-radius: 6px;
-}
-
-.formText {
-  color: rgb(179, 211, 221);
+  margin-top: 50px;
+  
 }
 
 .contactBtn {
@@ -85,12 +83,16 @@
 }
 
 .resumeLink {
-  color:  rgb(11, 94, 133);
+  color: rgb(11, 94, 133);
 }
 
 .inputField {
+  display: flex;
   background-color: rgb(179, 211, 221);
-  min-width: 300px;
+  max-width: 85%;
+  margin-left: 17px;
+  justify-content: center;
+  align-content: space-around;
 }
 
 .icon {
@@ -102,6 +104,9 @@
   background-color: rgba(50, 123, 156, 0.795);
   color: rgb(179, 211, 221);
   font-weight: 450;
+  align-items: center;
+  align-content: space-around;
+  margin-top: 50px;
 }
 
 .btn {
@@ -132,7 +137,7 @@
 .portfolio {
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
   align-content: space-around;
-  max-height: 400px;
 }
+

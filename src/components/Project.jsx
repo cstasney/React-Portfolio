@@ -22,7 +22,7 @@ function Project({ project }) {
         <Card.Body>
           <ButtonGroup aria-label="Basic example">
             <Button href={`${project.gitHub}`} variant="secondary">GitHub</Button>
-            {/* <Button variant="secondary">Live App</Button> */}
+            <Button href={`${project.live}`}variant="secondary">Live App</Button>
           </ButtonGroup>
         </Card.Body>
       </Card>
