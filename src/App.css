@@ -63,7 +63,7 @@
   color: rgb(179, 211, 221);
   border-radius: 6px;
   margin-top: 50px;
-  max-width: 500px;
+  min-width: 450px;
 }
 
 .contactBtn {
@@ -90,7 +90,7 @@
   display: flex;
   background-color: rgb(179, 211, 221);
   max-width: 85%;
-  margin-left: 17px;
+  margin-left: 34px;
   justify-content: center;
   align-content: space-around;
   
@@ -140,5 +140,17 @@
   justify-content: center;
   align-items: center;
   align-content: space-around;
+}
+
+.contactHeaders {
+  padding: 8px;
+  padding-top: 10px;
+}
+
+.inputField:focus{
+  background-color: rgb(146, 103, 103);
+  color: rgb(179, 211, 221);
+  font-weight: 500;
+  border: none;
 }
 

@@ -36,10 +36,10 @@ export default function Contact() {
     }
 
     return (
-        <Col className='contactForm'>
+        <Col className='contactForm' xs={12}>
             <Form onSubmit={handleSubmit} onChange={handleChange} className='contactForm'>
                 <Form.Group className="mb-3 ">
-                    <Form.Label>Name</Form.Label>
+                    <Form.Label className='contactHeaders'>Name</Form.Label>
                     {error ? <Form.Control className='formText' type="text" placeholder="This field is required" onChange={(e) => { setName(e.target.value) }} />
                         : <Form.Control className=' inputField' type="text" placeholder="Name" onChange={(e) => { setName(e.target.value) }} />}
                 </Form.Group>
