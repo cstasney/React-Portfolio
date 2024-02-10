@@ -4,9 +4,9 @@
     "version": "0.0.0",
     "type": "module",
     "scripts": {
-        "dev": "react-scripts build",
-        "start": "serve -s build",
-        "build": "react-scripts build",
+        "dev": "vite",
+        "start": "vite",
+        "build": "vite build",
         "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
         "preview": "vite preview"
     },
@@ -24,8 +24,6 @@
         "react-dom": "^18.2.0",
         "react-icons": "^5.0.1",
         "react-router-dom": "^6.11.1",
-        "serve": "^14.2.1",
-        "server": "^1.0.38",
         "vite": "^4.4.5"
     }
 }
