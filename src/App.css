@@ -26,7 +26,6 @@
   border-radius: 16px;
   margin-top: 100px;
   margin-bottom: 15px;
-  justify-content: center;
 }
 
 #aboutMe {
@@ -49,9 +48,14 @@
   border-radius: 6px;
 }
 
+.centered-header {
+  text-align: center;
+}
+
 .accordion-button {
   background-color: rgb(146, 103, 103);
   color: rgb(179, 211, 221);
+  text-align:  center;
 }
 
 .contactForm {
@@ -66,7 +70,8 @@
 
 .contactBtn {
   background-color: rgb(146, 103, 103);
-  border-color: none;
+  border: none;
+  margin-bottom: 12px;
 }
 
 .resume {
@@ -115,4 +120,19 @@
 
 .icon:hover {
   color: rgb(179, 211, 221);
+}
+
+.aboutMe {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  align-content: space-around;
+  max-height: 400px;
 }

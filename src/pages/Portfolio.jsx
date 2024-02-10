@@ -30,7 +30,7 @@ function Portfolio() {
     },
     {
       name: 'passwordGenerator',
-      description: 'JSS',
+      description: 'JS',
       gitHub: "https://github.com/cstasney/Module-3-Challenge",
       title: "Password Generator"
     },

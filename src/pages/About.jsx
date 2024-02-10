@@ -11,7 +11,8 @@ function About() {
                 <Col xs={12} md ={12} lg={12}>
                     <Image src={selfie} id='selfie'/>
                 </Col>
-                <Col xs={12} md={12} lg={12}>
+                <Col xs={12} md={12} lg={12}
+                className='aboutMe'>
                     <p id='aboutMe'>Hello! My name is Christopher Stasney. Through UCF's coding bootcamp I have been able to start my journey as a full stack web developer.
                         Through this bootcamp I have learned to use many technologies and languages inlucing MERN stack and MYSQL. I am an avid traveler and nature enthusiast.
                         In my free time I enjoy SCUBA, climbing, hiking, drifting "crazy carts", and video games.

@@ -6,11 +6,11 @@ function Resume() {
     return (
         <div className='proficienciesText'>
             <div className="resume">
-                <h1>Click <a className="resumeLink" href={resume} download={'Chris_Stasney_Resume'}>here</a> to download my resume.</h1>
+                <h1>Click <a className="resumeLink" href={resume} download={'Chris_Stasney_Resume'}>here</a> to download my resume</h1>
             </div>
             <Accordion defaultActiveKey={['0']} alwaysOpen>
                 <Accordion.Item eventKey="0">
-                    <Accordion.Header>Front-End Proficiencies</Accordion.Header>
+                    <Accordion.Header className='proficienciesText centered-header'>Front-End Proficiencies</Accordion.Header>
                     <Accordion.Body className='proficienciesText'>
                         <ListGroup.Item>HTML</ListGroup.Item>
                         <ListGroup.Item>CSS</ListGroup.Item>
@@ -22,7 +22,7 @@ function Resume() {
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="1" >
-                    <Accordion.Header className='proficienciesText'>Back-End Proficiencies</Accordion.Header>
+                    <Accordion.Header className='proficienciesText centered-header'>Back-End Proficiencies</Accordion.Header>
                     <Accordion.Body className='proficienciesText'>
                         <ListGroup.Item>APIs</ListGroup.Item>
                         <ListGroup.Item>Node</ListGroup.Item>

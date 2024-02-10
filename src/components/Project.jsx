@@ -10,7 +10,7 @@ function Project({ project }) {
   const { name } = project;
   const projectImage = projects[name];
   return (
-    <Col xs={12} md={6} l={4}>
+    <Col xs={12} md={6} lg={4} className="portfolio">
       <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src={projectImage} className="projectImage justify-content-center" />
         <Card.Body>
