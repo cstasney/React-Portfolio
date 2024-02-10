@@ -35,21 +35,21 @@ export default function Contact() {
     }
 
     return (
-        <Form onSubmit={handleSubmit} onChange={handleChange}>
-            <Form.Group className="mb-3">
+        <Form onSubmit={handleSubmit} onChange={handleChange} className='contactForm'>
+            <Form.Group className="mb-3 ">
                 <Form.Label>Name</Form.Label>
-                {error ? <Form.Control type="text" placeholder="This field is required" className='error' onChange={(e) => { setName(e.target.value) }} />
-                :<Form.Control type="text" placeholder="Name" onChange={(e) => { setName(e.target.value) }} />}
+                {error ? <Form.Control className='formText' type="text" placeholder="This field is required" onChange={(e) => { setName(e.target.value) }} />
+                :<Form.Control className=' inputField' type="text" placeholder="Name" onChange={(e) => { setName(e.target.value) }} />}
             </Form.Group>
             <Form.Group className="mb-3">
                 <Form.Label>Email address</Form.Label>
                 {error ? <Form.Control type="text" placeholder="This field is required" className='error' onChange={(e) => { setEmail(e.target.value) }} /> : emailInvalid ? <Form.Control type="text" placeholder="Invalid email" className='error' onChange={(e) => { setEmail(e.target.value) }} />
-                :<Form.Control type="text" placeholder="email" onChange={(e) => { setEmail(e.target.value) }} />}
+                :<Form.Control className=' inputField' type="text" placeholder="email" onChange={(e) => { setEmail(e.target.value) }} />}
             </Form.Group>
             <Form.Group className="mb-3">
                 <Form.Label>Comment</Form.Label>
                 {error ? <Form.Control as='textarea' type="textarea" placeholder="This field is required" className='error' onChange={(e) => { setText(e.target.value) }} />
-                :<Form.Control as='textarea' type="textarea" placeholder="Leave a comment!?" onChange={(e) => { setText(e.target.value) }} />}
+                :<Form.Control className=' inputField' as='textarea' type="textarea" placeholder="Leave a comment!" onChange={(e) => { setText(e.target.value) }} />}
             </Form.Group>
             <Button className="contactBtn" type="submit">
                 Submit

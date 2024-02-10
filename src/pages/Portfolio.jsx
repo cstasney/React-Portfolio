@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Project from "../components/Project";
+import Row from 'react-bootstrap/Row'
 
 function Portfolio() {
   const [projects] = useState([
@@ -18,12 +19,13 @@ function Portfolio() {
       repo: "https://github.com",
       title: 'Book Search Engine'
     },
-    // {
-    //   name: 'runBuddy',
-    //   description: 'HTML/CSS',
-    //   link: "https://github.com",
-    //   repo: "https://github.com"
-    // },
+    {
+      name: 'socialNetwork',
+      description: 'Mongo DB and RestFul API',
+      link: "https://github.com",
+      repo: "https://github.com",
+      title: "Social Network API"
+    },
     // {
     //   name: 'ledWall',
     //   description: 'Node/IoT',
@@ -39,16 +41,14 @@ function Portfolio() {
   ]);
 
   return (
-    <div>
-      <div className="flex-row">
+      <Row>
         {projects.map((project, idx) => (
           <Project
             project={project}
             key={"project" + idx}
           />
         ))}
-      </div>
-    </div>
+      </Row>
   );
 }
 
