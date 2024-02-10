@@ -7,49 +7,52 @@ function Portfolio() {
     {
       name: 'diveBar',
       description: 'MYSQL and Node',
-      link: "https://github.com",
-      repo: "https://github.com",
       title: 'Dive Bar',
       gitHub: 'https://github.com/JackStras/Dive-Bar'
     },
     {
       name: 'bookSearch',
       description: 'MERN Stack',
-      link: "https://github.com",
-      repo: "https://github.com",
+      gitHub: "https://github.com/cstasney/Book-Search-Engine",
       title: 'Book Search Engine'
     },
     {
       name: 'socialNetwork',
       description: 'Mongo DB and RestFul API',
-      link: "https://github.com",
-      repo: "https://github.com",
+      gitHub: "https://github.com/cstasney/Social-Network--API",
       title: "Social Network API"
     },
-    // {
-    //   name: 'ledWall',
-    //   description: 'Node/IoT',
-    //   link: "https://github.com",
-    //   repo: "https://github.com"
-    // },
-    // {
-    //   name: 'calculator',
-    //   description: 'React/JavaScript/CSS',
-    //   link: "https://github.com",
-    //   repo: "https://github.com"
-    // },
+    {
+      name: 'employeeTracker',
+      description: 'SQL and Sequelize',
+      gitHub: "https://github.com/cstasney/Employee-Tracker",
+      title: "SQL Employee Tracker"
+    },
+    {
+      name: 'passwordGenerator',
+      description: 'JSS',
+      gitHub: "https://github.com/cstasney/Module-3-Challenge",
+      title: "Password Generator"
+    },
+    {
+      name: 'eCommerce',
+      description: 'MYSQL',
+      gitHub: "https://github.com/cstasney/E-Commerce-Back-End",
+      title: "MySql E-Commerce Database"
+    },
+
   ]);
 
-  return (
-      <Row>
-        {projects.map((project, idx) => (
-          <Project
-            project={project}
-            key={"project" + idx}
-          />
-        ))}
-      </Row>
-  );
+return (
+  <Row>
+    {projects.map((project, idx) => (
+      <Project
+        project={project}
+        key={"project" + idx}
+      />
+    ))}
+  </Row>
+);
 }
 
 export default Portfolio;

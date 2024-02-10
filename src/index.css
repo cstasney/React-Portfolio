@@ -29,7 +29,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: rgb(179, 211, 221);
+  background-image: radial-gradient(rgb(179, 211, 221), rgb(146, 103, 103))
 }
 
 h1 {
@@ -61,8 +61,8 @@ button:focus-visible {
 .nav-link, 
 .nav-tabs 
 .nav-link.active {
-  background-color: rgba(54, 87, 236, 0.397);
-  font-weight: 475;
+  background-color: rgba(50, 123, 156, 0.795);
+  font-weight: 700;
   color: rgb(146, 103, 103);
 }
 

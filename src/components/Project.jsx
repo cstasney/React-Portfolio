@@ -10,7 +10,7 @@ function Project({ project }) {
   const { name } = project;
   const projectImage = projects[name];
   return (
-    <Col md={6} xs={12}>
+    <Col xs={12} md={6} l={4}>
       <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src={projectImage} className="projectImage justify-content-center" />
         <Card.Body>
@@ -22,7 +22,7 @@ function Project({ project }) {
         <Card.Body>
           <ButtonGroup aria-label="Basic example">
             <Button href={`${project.gitHub}`} variant="secondary">GitHub</Button>
-            <Button variant="secondary">Live App</Button>
+            {/* <Button variant="secondary">Live App</Button> */}
           </ButtonGroup>
         </Card.Body>
       </Card>
