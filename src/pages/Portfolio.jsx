@@ -7,13 +7,16 @@ function Portfolio() {
       name: 'diveBar',
       description: 'MYSQL and Node',
       link: "https://github.com",
-      repo: "https://github.com"
+      repo: "https://github.com",
+      title: 'Dive Bar',
+      gitHub: 'https://github.com/JackStras/Dive-Bar'
     },
     {
       name: 'bookSearch',
       description: 'MERN Stack',
       link: "https://github.com",
-      repo: "https://github.com"
+      repo: "https://github.com",
+      title: 'Book Search Engine'
     },
     // {
     //   name: 'runBuddy',

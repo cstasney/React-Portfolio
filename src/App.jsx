@@ -2,6 +2,7 @@ import Header from './components/Header'
 import Nav from './components/Nav'
 // import Footer from './components/footer'
 import { Outlet } from 'react-router-dom'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 
 function App() {
