@@ -61,7 +61,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 [Heroku](https://stasney-book-search-dc63d08f8f2b.herokuapp.com/)
 
 ## Screenshots
-![alt text](image.png)
+![alt text](screenshot.png)
 
 ## Contributors
 [Christopher Stasney](https://github.com/cstasney)
