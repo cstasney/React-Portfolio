@@ -58,7 +58,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ```
 
 ## Deployment
-[Heroku](https://stasney-book-search-dc63d08f8f2b.herokuapp.com/)
+[Netlify](https://main--stasney-react-portfolio.netlify.app/)
 
 ## Screenshots
 ![alt text](screenshot.png)
