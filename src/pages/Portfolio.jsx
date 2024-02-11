@@ -22,25 +22,29 @@ function Portfolio() {
       name: 'socialNetwork',
       description: 'Mongo DB and RestFul API',
       gitHub: "https://github.com/cstasney/Social-Network--API",
-      title: "Social Network API"
+      title: "Social Network API",
+      live: 'https://github.com/cstasney/Social-Network--API'
     },
     {
       name: 'employeeTracker',
       description: 'SQL and Sequelize',
       gitHub: "https://github.com/cstasney/Employee-Tracker",
-      title: "SQL Employee Tracker"
+      title: "SQL Employee Tracker",
+      live: 'https://github.com/cstasney/Employee-Tracker'
     },
     {
       name: 'passwordGenerator',
       description: 'JS',
       gitHub: "https://github.com/cstasney/Module-3-Challenge",
-      title: "Password Generator"
+      title: "Password Generator",
+      live: 'https://github.com/cstasney/Module-3-Challenge'
     },
     {
       name: 'eCommerce',
       description: 'MYSQL',
       gitHub: "https://github.com/cstasney/E-Commerce-Back-End",
-      title: "MySql E-Commerce Database"
+      title: "MySql E-Commerce Database",
+      live: 'https://github.com/cstasney/E-Commerce-Back-End'
     },
 
   ]);
