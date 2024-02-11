@@ -24,8 +24,6 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background-image: radial-gradient(rgb(179, 211, 221), rgb(146, 103, 103));
-  background-size: 100%;
-  background-repeat: no-repeat;
   display: flex;
 }
 
