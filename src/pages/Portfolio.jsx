@@ -9,7 +9,7 @@ function Portfolio() {
       description: 'MYSQL and Node',
       title: 'Dive Bar',
       gitHub: 'https://github.com/JackStras/Dive-Bar',
-      live: 'https://github.com/JackStras/Dive-Bar'
+      live: 'https://dive-bar-74e1597efc1b.herokuapp.com/'
     },
     {
       name: 'bookSearch',
