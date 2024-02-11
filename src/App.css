@@ -22,18 +22,19 @@
 
 
 #selfie {
-  max-width: 500px;
+  max-width: 75%;
   border-radius: 16px;
   margin-top: 150px;
   margin-bottom: 15px;
 }
 
 #aboutMe {
-  max-width: 650px;
+  max-width: 75%;
   margin-bottom: 150px;
   color: rgb(11, 94, 133);
   font-weight: 750;
   margin-top: 75px;
+  font-size: 1rem;
 }
 
 .projectImage {
@@ -63,7 +64,7 @@
   color: rgb(179, 211, 221);
   border-radius: 6px;
   margin-top: 50px;
-  min-width: 450px;
+  min-width: 325px;
 }
 
 .contactBtn {
@@ -90,7 +91,7 @@
   display: flex;
   background-color: rgb(179, 211, 221);
   max-width: 85%;
-  margin-left: 34px;
+  margin-left: 25px;
   justify-content: center;
   align-content: space-around;
   
